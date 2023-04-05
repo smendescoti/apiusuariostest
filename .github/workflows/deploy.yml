@@ -44,5 +44,5 @@ jobs:
           application_name: apiusuariostest
           environment_name: Apiusuariostest-env
           version_label: ${{github.SHA}}
-          region: us-east-1
+          #region: us-east-1
           deployment_package: api_usuarios-1.0.jar   
